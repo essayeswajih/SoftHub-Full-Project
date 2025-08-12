@@ -740,7 +740,7 @@ export default function Portfolio() {
                 className="project-card overflow-hidden hover:scale-[1.01] transition-transform duration-300"
               >
                 <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 relative overflow-hidden">
-                  <img
+                  <Image
                     src={project.image || "/placeholder.svg?height=200&width=300&query=project+image"}
                     alt={project.title}
                     className="w-full h-full object-cover"
