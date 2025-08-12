@@ -1,0 +1,127 @@
+export const services = [
+  {
+    icon: "Shield",
+    title: "Cybersecurity",
+    description: "Comprehensive security solutions to protect your digital assets",
+    features: ["Penetration Testing", "Security Audits", "Threat Assessment", "Incident Response"],
+  },
+  {
+    icon: "Globe",
+    title: "Web Development",
+    description: "Modern, responsive websites and web applications",
+    features: ["Angular/Next.js", "Full-Stack Development", "E-commerce", "API Integration"],
+  },
+  {
+    icon: "Smartphone",
+    title: "Mobile Development",
+    description: "Native and cross-platform mobile applications",
+    features: ["iOS & Android", "Flutter", "Kotlin", "Play Store Deployment"],
+  },
+]
+
+export const projects = [
+  {
+    title: "Intrusion Detection System",
+    category: "Cybersecurity",
+    description:
+      "A security tool that monitors web servers traffic and system activity for malicious activity",
+    tech: ["Python", "FastApi", "Angular", "PostgreSQL", "Stripe", "SQLAlchemy", "ng2-charts"],
+    image: "/las.png",
+  },
+  {
+    title: "E-Commerce Platform",
+    category: "Web Development",
+    description: "Sustainable e-commerce platform for beekeeping products",
+    tech: ["Python", "FastApi", "Angular", "PostgreSQL", "Bootstrap", "Gsap", "Github Actions", "Docker"],
+    image: "/apiculture.png",
+  },
+  {
+    title: "PFE PFA Book",
+    category: "Mobile Development",
+    description: "Cross-platform for managing internships books",
+    tech: ["Dart", "Flutter", "Firebase", "Github", "PlayStore Deployment", "Google Analytics"],
+    image: "/pfepfa.jpeg",
+  },
+]
+
+export const technologies = [
+  "Angular",
+  "Next.js",
+  "FastAPI",
+  "Spring Boot",
+  "Node.js",
+  "TypeScript",
+  "Python",
+  "PostgreSQL",
+  "Kotlin",
+  "Flutter",
+  "Docker",
+  "CI/CD",
+]
+
+export const pricingPlans = [
+  {
+    name: "Starter",
+    price: "$1,200",
+    period: "per project",
+    description: "Perfect for small businesses and startups",
+    features: [
+      "Basic Security Assessment",
+      "Simple Web Application (Angular/Next.js)",
+      "Mobile App Prototype (Flutter)",
+      "PostgreSQL Database Setup",
+      "3 Revisions",
+      "Email Support",
+      "1 Month Support",
+      "Basic CI/CD Setup",
+    ],
+    popular: false,
+    buttonText: "Get Started",
+  },
+  {
+    name: "Professional",
+    price: "$3,500",
+    period: "per project",
+    description: "Ideal for growing businesses with complex needs",
+    features: [
+      "Comprehensive Penetration Testing",
+      "Full-Stack Web Platform (FastAPI + Angular)",
+      "Cross-Platform Mobile App (Flutter + Kotlin)",
+      "Advanced Database Design (PostgreSQL)",
+      "Payment Integration (Stripe)",
+      "Analytics Integration",
+      "Unlimited Revisions",
+      "Priority Support",
+      "3 Months Support",
+      "Docker Containerization",
+      "Complete CI/CD Pipeline",
+      "Performance Optimization",
+    ],
+    popular: true,
+    buttonText: "Most Popular",
+  },
+  {
+    name: "Enterprise",
+    price: "Custom",
+    period: "contact us",
+    description: "For large organizations requiring enterprise solutions",
+    features: [
+      "Advanced Intrusion Detection System",
+      "Enterprise Web Solutions (Microservices)",
+      "Native Mobile Applications (iOS & Android)",
+      "Multi-Database Architecture",
+      "Custom API Development",
+      "Advanced Security Audits",
+      "Real-time Monitoring & Analytics",
+      "Unlimited Revisions",
+      "24/7 Dedicated Support",
+      "12 Months Support",
+      "Custom Integrations",
+      "Training & Documentation",
+      "Ongoing Maintenance",
+      "Scalable Infrastructure",
+    ],
+    popular: false,
+    buttonText: "Contact Sales",
+  },
+]
