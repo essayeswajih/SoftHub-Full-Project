@@ -743,7 +743,6 @@ export default function Portfolio() {
                 <Image
                   src={project.image || "/placeholder.svg?height=200&width=300&query=project+image"}
                   alt={project.title}
-                  fill
                   className="object-cover"
                 />
                   <div className="absolute top-4 left-4">
