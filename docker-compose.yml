@@ -4,7 +4,8 @@ services:
     build: ./nextjs
     container_name: nextjs_app
     restart: always
-
+    env_file:
+      - ./nextjs/.env
   nginx:
     image: nginx:latest
     container_name: nginx_proxy
