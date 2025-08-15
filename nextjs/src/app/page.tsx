@@ -744,6 +744,7 @@ export default function Portfolio() {
                   src={project.image || "/placeholder.svg?height=200&width=300&query=project+image"}
                   alt={project.title}
                   className="object-cover"
+                  fill
                 />
                   <div className="absolute top-4 left-4">
                     <CustomBadge className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white border-0">
